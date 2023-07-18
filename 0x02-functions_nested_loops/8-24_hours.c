@@ -2,7 +2,7 @@
 /**
  * jack_bauer - Entry point
  * Description: every minute of the day
- * Return: 
+ * Return: no return
  */
 void jack_bauer(void)
 {
@@ -18,7 +18,7 @@ void jack_bauer(void)
 				{
 					if (a >= 2 && b >= 4)
 						break;
-					_putchar(a +48);
+					_putchar(a + 48);
 					_putchar(b + 48);
 					_putchar(58);
 					_putchar(c + 48);
